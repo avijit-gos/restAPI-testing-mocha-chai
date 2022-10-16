@@ -1,0 +1,39 @@
+{
+  "name": "restapi-testing",
+  "version": "1.0.0",
+  "description": "restAPI testing with mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha test.js --timeout 150000 --exit"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "Nodejs",
+    "JWT",
+    "mocha",
+    "chai",
+    "chai-http",
+    "bcrypt"
+  ],
+  "author": "Avijit Goswami",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  }
+}
